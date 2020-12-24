@@ -8,14 +8,14 @@ const PublisherBox = () => {
                 <img src={profilePhoto} alt=""/>
             </div>
             <div className="think">
-                <p>¿Que estas pensando?</p>
+                <p>¿Qué está pasando?</p>
             </div>
             <div className="actions">
-                <i className="fas fa-photo-video"></i>
-                <i className="fas fa-audio-description"></i>
-                <i className="fas fa-chart-line"></i>
-                <i className="far fa-grin-beam"></i>
-                <i className="fas fa-calendar-plus"></i>
+                <i className="fas fa-photo-video"/>
+                <i className="fas fa-audio-description"/>
+                <i className="fas fa-chart-line"/>
+                <i className="far fa-grin-beam"/>
+                <i className="fas fa-calendar-plus"/>
             </div>
             <div className="tweet">
                 <button>

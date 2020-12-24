@@ -28,8 +28,8 @@ export const SideRight = () => {
         <div className="sr-content">
             <div className="child-content">
                 <div className="scroller">
-                    <Card content={notices1} title={'¿Qé esta pasando?'}/>
-                    <Card content={notices2} title={'A quien seguir'}/>
+                    <Card content={notices1} title={'¿Qué está pasando?'}/>
+                    <Card content={notices2} title={'A quién seguir'}/>
                 </div>
             </div>
         </div>
