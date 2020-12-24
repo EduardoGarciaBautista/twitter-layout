@@ -1,0 +1,32 @@
+$app-background-color: rgb(21, 32, 43);
+
+$card-background-color: rgb(25, 39, 52);
+
+$finder-input-bg-color: rgb(37, 51, 65);
+
+$border-color: rgba(255, 255, 255, 0.25);
+
+$top: 'top';
+$left: 'left';
+$right: 'right';
+$bottom: 'bottom';
+
+.border {
+  border-width: .5px !important;
+  border-color: $border-color !important;
+}
+
+@mixin setBorder($position: 'all') {
+  @extend .border;
+
+  @if ($position == $top) {
+    border-top: solid;
+  } @else if ($position == $bottom) {
+    border-bottom: solid;
+  } @else if ($position == $left) {
+    border-left: solid;
+  } @else if ($position == $right) {
+    border-right: solid;
+  } @else {
+  }
+}

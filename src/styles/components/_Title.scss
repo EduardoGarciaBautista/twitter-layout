@@ -1,0 +1,10 @@
+
+.title {
+    @include setBorder($bottom);
+    grid-area: title;
+    position: sticky;
+    top: 0;
+    background-color: $app-background-color;
+    padding: 15px 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+.sr-content {
+  grid-area: sr-content;
+  position: relative;
+  padding: 0 134px 0 30px;
+  @include setBorder($left);
+}
+
+
+.child-content {
+  min-height: 1500px;
+  height: 100%;
+}
+
+.scroller {
+  position: sticky;
+  top: -200px;
+}
+
+@media screen and (max-width: 1296px) {
+  .sr-content {
+    padding: 0 30px 0 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sr-content {
+    display: none;
+  }
+}

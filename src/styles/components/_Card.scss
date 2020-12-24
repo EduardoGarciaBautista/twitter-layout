@@ -1,0 +1,33 @@
+
+
+.sr-content-card {
+  border-radius: 10px;
+  background-color: $card-background-color;
+  border-color: $card-background-color;
+  max-height: 70%;
+  margin: 10px 0;
+}
+
+.sr-content-card p {
+  margin: 0;
+}
+
+.sr-content-card__header {
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  @include setBorder($bottom);
+}
+
+
+.sr-content-card__notice {
+  padding: 10px 15px;
+  height: 100px;
+  @include setBorder($bottom);
+}
+
+.sr-content-card__notice:last-child {
+  border: unset;
+}

@@ -1,0 +1,63 @@
+
+
+.publication {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: grid;
+  grid-template-columns: 59px 1fr;
+  grid-template-rows: auto 1fr 40px;
+  grid-template-areas:
+        "publication-user publication-text"
+        ". publication-photo"
+        ". publication-actions";
+  border-bottom: solid;
+  border-width: .5px;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.publication:first-child {
+  border-top: unset;
+}
+
+
+.publication__pic {
+  grid-area: publication-user;
+  cursor: pointer;
+}
+
+.publication__pic img {
+  width: 49px;
+  height: 49px;
+}
+
+.publication__text {
+  grid-area: publication-text;
+  margin-bottom: 10px;
+}
+
+.publication_photo {
+  grid-area: publication-photo;
+  cursor: pointer;
+}
+
+.publication_photo img {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.publication__actions {
+  grid-area: publication-actions;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.publication__actions span i {
+  margin-right: 10px;
+}
+
+.publication__actions span {
+  cursor: pointer;
+}

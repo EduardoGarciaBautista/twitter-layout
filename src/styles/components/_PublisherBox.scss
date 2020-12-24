@@ -1,0 +1,78 @@
+
+
+.publisher {
+    grid-area: publisher;
+    border-bottom: solid;
+    border-width: .5px;
+    border-color: rgba(255, 255, 255, 0.25);
+    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: 59px repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "profile text text"
+        ". actions button";
+}
+
+
+
+.image {
+    grid-area: profile;
+}
+
+.image img {
+    width: 49px;
+    height: 49px;
+}
+
+.think {
+    grid-area: text;
+    align-self: center;
+}
+
+.think p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.actions {
+    grid-area: actions;
+    align-self: end;
+    display: flex;
+    align-items: self-start;
+}
+
+.actions i {
+    font-size: 20px;
+    margin-right: 15px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    color: rgba(29, 161, 242, 1.00);
+    cursor: pointer;
+}
+
+.tweet {
+    grid-area: button;
+    align-self: center;
+    justify-self: flex-end;
+    padding-right: 10px;
+}
+
+.tweet button {
+    background-color: rgba(29, 161, 242, 1.00);
+    border-radius: 30px;
+    height: 40px;
+    padding: 5px 5px;
+    border: 0;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width : 640px) {
+    .publisher {
+        display: none;
+    }
+}

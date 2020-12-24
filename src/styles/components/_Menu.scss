@@ -1,0 +1,74 @@
+.menu {
+  @include setBorder($right);
+  background-color: $app-background-color;
+  padding: 0 40px 0 137px;
+  transition: 300ms;
+}
+
+.logo img {
+  width: 47px;
+  height: 47px;
+  padding: 5px;
+}
+
+.menu-item {
+  display: block;
+  height: 50px;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+
+.menu-item span {
+  display: flex;
+  align-items: center;
+
+}
+.menu-item span span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.menu-item span i {
+  height: 27px;
+  width: 27px;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1296px) {
+  .menu {
+    padding: 0 40px 0 40px;
+  }
+}
+
+@media screen and (max-width: 1104px) {
+  .menu {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .menu-item span span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 640px) {
+  .menu {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-item {
+    display: inline-block;
+    height: auto;
+  }
+  .menu-item:first-child, .menu-item:last-child, .menu-item:nth-child(3), .menu-item:nth-child(5), .logo {
+    display: none;
+  }
+}
