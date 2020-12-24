@@ -16,7 +16,7 @@
     "static/media/Ep88B1jXEAMap6v.f10d67e1.jpg": "/static/media/Ep88B1jXEAMap6v.f10d67e1.jpg",
     "static/media/Ep_O1BaXMAE4N4g.a5309e32.jpg": "/static/media/Ep_O1BaXMAE4N4g.a5309e32.jpg",
     "static/media/Ep_Q86wW4AAadPP.cffdbd7a.png": "/static/media/Ep_Q86wW4AAadPP.cffdbd7a.png",
-    "static/media/image.889db2ca.png": "/static/media/image.889db2ca.png"
+    "static/media/image.889db2ca.png": "./static/media/image.889db2ca.png"
   },
   "entrypoints": [
     "static/js/runtime-main.47283e05.js",
