@@ -4,7 +4,7 @@ const Publication = ({userImage, publicationMedia}) => {
     return (
         <div className="publication">
             <div className="publication__pic">
-                <img src={userImage} alt=""/>
+                <img src="https://firebasestorage.googleapis.com/v0/b/ng-store-2b2df.appspot.com/o/twitterLayoutIMGS%2F147140.png?alt=media&token=449de4c6-4675-4065-b8fa-6c4b9201fdc9" alt=""/>
             </div>
 
             <div className="publication__text">
