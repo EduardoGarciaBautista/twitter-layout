@@ -12,7 +12,7 @@ const Publication = ({userImage, publicationMedia}) => {
                 been the industry's standard dummy text ever since the 1500s
             </div>
 
-            <div className="publication_photo">
+            <div className={`publication_photo ${publicationMedia ?'min-h-img' : ''}`}>
                 <img src={publicationMedia} alt=""/>
             </div>
             <div className="publication__actions">

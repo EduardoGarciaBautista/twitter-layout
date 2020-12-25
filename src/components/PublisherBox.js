@@ -5,7 +5,7 @@ const PublisherBox = () => {
     return (
         <div className="publisher">
             <div className="image">
-                <img src={profilePhoto} alt=""/>
+                <img src="https://firebasestorage.googleapis.com/v0/b/ng-store-2b2df.appspot.com/o/twitterLayoutIMGS%2F147140.png?alt=media&token=449de4c6-4675-4065-b8fa-6c4b9201fdc9" alt=""/>
             </div>
             <div className="think">
                 <p>¿Qué está pasando?</p>

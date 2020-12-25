@@ -41,6 +41,11 @@
   cursor: pointer;
 }
 
+.min-h-img {
+  min-height: 300px;
+  max-height: 300px;
+}
+
 .publication_photo img {
   width: 100%;
   max-height: 300px;

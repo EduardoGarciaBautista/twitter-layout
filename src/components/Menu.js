@@ -1,11 +1,11 @@
 import React from 'react';
-import Logo from '../assets/image.png';
+
 
 const Menu = () => {
     return (
         <div className="menu">
             <div className="logo">
-                <img src={Logo} alt=""/>
+                <img src="https://firebasestorage.googleapis.com/v0/b/ng-store-2b2df.appspot.com/o/twitterLayoutIMGS%2Fimage.png?alt=media&token=1133a79c-e106-4564-8341-ca123d383866" alt=""/>
             </div>
             <div className="menu-item">
                 <span>
